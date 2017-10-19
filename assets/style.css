@@ -126,3 +126,52 @@ body{
 .announce-text a{
  	color: #A93F3C;
  }
+
+
+@media (min-width: 992px) { 
+	.container{
+		width: 55%;
+
+	}
+
+	.title{
+		font-size: 46px;
+		font-weight: bold;
+	}
+
+	.race-name{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.race-num, .race-time{
+		font-size: 24px;
+	}
+
+	.boat{
+		width: 55%;
+		margin-left: 40%;
+		padding: 2%;
+	}
+
+	.club{
+		color: #A93F3C;
+		font-size: 26px;
+		font-weight: bold;
+	}
+
+	.bow{
+	color: #272822;
+	font-size: 26px;
+	}
+
+	.btn-page{
+	height: 100%;
+	background-color: maroon;
+	padding: 2%;
+	width: 40%;
+	margin: 1%;
+	}
+
+}

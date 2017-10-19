@@ -134,9 +134,9 @@ $(document).ready(function() {
       var announce_text = announce[a][1]
       console.log(announce_text)
       var new_announce= $("<div class='row announce'>")
-      var new_announce_heading = $("<div class='col-xs-12 announce-heading'>")
+      var new_announce_heading = $("<div class='col-xs-12 col-md-9 col-md-offset-1 announce-heading'>")
       new_announce_heading.html(announce_heading)
-      var new_announce_text = $("<div class='col-xs-12 announce-text'>")
+      var new_announce_text = $("<div class='col-xs-12 col-md-10 col-md-offset-1 announce-text'>")
       new_announce_text.html(announce_text)
 
       new_announce.append(new_announce_heading)
