@@ -1,0 +1,128 @@
+body{
+		background-color: #272822;
+}
+
+.btn-home{
+	background-color: maroon;
+	height: 100%;
+	padding: 2%;
+	width: 90%;
+	margin: 1%;
+}
+
+.btn-home a{
+	font-size: 36px;
+	color: white;
+}
+
+.home-buttons{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.btn-page{
+	height: 100%;
+	background-color: maroon;
+	padding: 2%;
+	width: 60%;
+	margin: 1%;
+
+}
+
+.btn-page a{
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+
+.page-buttons{
+	text-align: center;
+}
+
+.title{
+	background-color: maroon;
+	padding: 5%;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+}
+
+.race{
+	height: 60px;
+	margin: 5%;
+	color: white;
+}
+
+.race-time, .race-num{
+	font-size: 18px;
+}
+
+.race-name{
+	text-align: center;
+	font-weight: bold;
+}
+
+.race-num{
+	text-align: left
+}
+
+.race-time{
+	text-align: right;
+}
+
+.boat{
+	background-color: #515151;
+	width: 85%;
+	margin-left: 15%;
+	padding: 2%;
+}
+
+.club, .bow{
+	text-align: center;
+}
+
+.club{
+	color: #A93F3C;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.bow{
+	color: #272822;
+	font-size: 30px;
+}
+
+.rowers{ 
+	color: white;
+	font-size: 16px;
+/*	background-color: #272822;*/
+	padding: 5%;
+	margin-top: 5%;
+	border-top: solid;
+	border-width: 1px;
+
+ }
+
+.announce{
+	padding: 5%;
+}
+
+.announce-heading{
+ 	text-align: center;
+ 	padding: 5%;
+ }
+
+.announce-heading{
+ 	color: #515151;
+ 	font-size: 32px;
+ 	font-weight: bold;
+ }
+
+.announce-text{
+ 	color: white;
+ 	font-size: 18px;
+ }
+
+.announce-text a{
+ 	color: #A93F3C;
+ }
